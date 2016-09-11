@@ -13,12 +13,7 @@ def test_solve_2():
     output = sing(song, bpm)
     assert_equal(True, right_on_time(output))
 
-def test_solve_3():
-    song = "ブリーフ＆トランクス - 青のり.md"
-    bpm = 80
-    output = sing(song, bpm)
-    assert_equal(True, right_on_time(output))
 
-def right_on_time():
+def right_on_time(output):
     # time the outputs coming out....
     return True

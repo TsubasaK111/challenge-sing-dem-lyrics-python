@@ -25,7 +25,6 @@ def sing(filename, beatsPerMinute):
 
         secondsPerBeat = Fraction(60,beatsPerMinute)
         time = 0
-        import pdb; pdb.set_trace()
 
         for line in songLines:
             printLine = PrintLine(line)
