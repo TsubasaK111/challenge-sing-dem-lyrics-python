@@ -21,7 +21,7 @@ class PrintLine:
         print self.line
 
 def sing(filename, beatsPerMinute):
-        songLines = open(filename, 'r').readlines()
+        songLines = open(filename, "r").readlines()
 
         secondsPerBeat = Fraction(60,beatsPerMinute)
         time = 0
@@ -36,8 +36,8 @@ def sing(filename, beatsPerMinute):
 # ============================================================================
 
 
-cwd = str(os.getcwd())
-lsResults = os.listdir(cwd)
-
-if "Bob Dylan - The Times They Are A-Changin'.md" in lsResults:
-    sing("Bob Dylan - The Times They Are A-Changin'.md", 100)
+# cwd = str(os.getcwd())
+# lsResults = os.listdir(cwd)
+#
+# if "Bob Dylan - The Times They Are A-Changin'.md" in lsResults:
+#     sing("Bob Dylan - The Times They Are A-Changin'.md", 100)
